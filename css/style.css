@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #1e88e5;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.card {
+    background: white;
+    padding: 1rem;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.btn,
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+button {
+    background: #1e88e5;
+    color: white;
+    width: 100%;
+}
+
+.editar {
+    background: #43a047;
+    color: white;
+}
+
+.excluir {
+    background: #f4511e;
+    color: white;
+}
+
+form {
+    flex-direction: column;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem;
+    background: #1e88e5;
+    color: white;
+}
+
+@media (min-width: 768px) {
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    form {
+        max-width: 500px;
+        margin: auto;
+    }
+
+}
